@@ -1,0 +1,21 @@
+1. open folder in cmd
+2. run command: npm init
+3. hit enter until package.json is created
+4. make index.js file in vs code
+5. open folder in cmd -----> run npm install express --save
+6. index.js code: 
+
+const express=require('express');
+
+const app=express();
+
+app.use(express.static('public'))
+
+app.listen(4000,()=>{
+    console.log("server is started!");
+})
+
+//node index.js
+
+7. make public folder inside vs code
+8. add index.html and paste html code.

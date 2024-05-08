@@ -1,0 +1,8 @@
+1-->    open terminal
+2-->   type npm install -g @angular/cli @latest
+3-->   type ng new <fiename>
+4-->   type cd <filename>
+5-->   ng serve
+
+after step 3 copy the above two files in the app.component.html and app.component.ts
+save them and them start from step 4
